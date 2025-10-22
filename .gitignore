@@ -1,0 +1,25 @@
+# ===== 환경 변수 및 개인 설정 =====
+.env
+
+# ===== 주피터 노트북 임시 파일 =====
+.ipynb_checkpoints/
+*.ipynb_convert
+*.ipynb_tmp
+
+
+# ===== 시각화 이미지 및 보고서 =====
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# ===== 캐시 및 시스템 파일 =====
+__pycache__/
+*.pyc
+.DS_Store
+
+# ===== IDE 및 가상환경 =====
+.vscode/
+.idea/
+.venv/
+env/
